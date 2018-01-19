@@ -36,11 +36,12 @@
     "php": ">=5.6",
     "composer/installers": "^1.4",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.8.2",
+    "johnpbloch/wordpress": "4.9.2",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/portfolio-gallery": "2.4.2",
-    "wpackagist-plugin/pirate-forms": "2.3.3"
+    "wpackagist-plugin/pirate-forms": "2.3.3",
+    "wpackagist-plugin/wp-database-backup": "4.5.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
