@@ -27,8 +27,7 @@ body {
 }
 
 .jumbotron {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  max-width: 100%;
   margin-bottom: 0;
   background-color: #fff;
 }
@@ -44,6 +43,24 @@ body {
 .jumbotron .container {
   max-width: 40rem;
 }
+
+.carou-hero {
+  position: relative;
+}
+
+.jumbo-carousel {
+  z-index: 1;
+  position: absolute;
+}
+
+.jumbo-header-text {
+  z-index: 2;
+  position: absolute;
+}
+
+.carousel-item { background-color: #000000; }
+.carousel-item img { opacity: 0.5; }
+
 
 .album {
   min-height: 50rem; /* Can be removed; just added for demo purposes */
